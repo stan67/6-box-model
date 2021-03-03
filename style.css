@@ -1,1 +1,102 @@
 
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+    margin: 30px 0;
+}
+
+h2 {
+    font-size: 21px;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+small {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.divider {
+    border: 1px solid #2c3e50;
+}
+
+/* Menu */
+
+nav ul {
+    margin: 0;
+    background: #2c3e50;
+}
+
+nav ul li {
+    display: inline-block;
+    color: white;
+    font-weight: 300;
+    padding: 10px 30px;
+}
+
+.grey {
+    background: #dfdfdf;
+    color: #2c3e50;
+}
+
+.brand {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Carousel */
+
+.carousel {
+    height: 250px;
+    background: #dfdfdf;
+}
+
+/* Articles */
+
+#article {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+article {
+    width: 31%;
+    height: 250px;
+    background: #dfdfdf;
+    display: inline-block;
+    margin: 0 2px;
+}
+
+/* Formulaire */
+form {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+form h2 {
+    text-align: left;
+}
+
+input, textarea {
+   width: 80%;
+   margin-top: 15px;
+   border: 2px solid #2c3e50;
+   border-radius: 2px;
+   padding: 6px;
+   font-size: 14px;
+}
+
+::placeholder {
+    color: #2c3e50;
+    font-size: 14px;
+    font-family: poppins, sans-serif;
+  }
